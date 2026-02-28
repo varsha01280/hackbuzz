@@ -12,7 +12,7 @@ app.use(express.json());
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "", // Ensure this is correct
+  password: "Varsha28!", // Ensure this is correct
   database: "smart_water_iot"
 });
 
@@ -129,4 +129,3 @@ app.post("/login", (req, res) => {
 app.listen(5000, () => {
   console.log("🚀 Server running on http://localhost:5000");
 });
-
